@@ -42,7 +42,7 @@ except ImportError:
     from SimpleHTTPServer import SimpleHTTPRequestHandler
     import SocketServer as socketserver
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 # should we require all soft dependencies
 # this is set in the docker images to catch missing packages

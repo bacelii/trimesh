@@ -1,4 +1,4 @@
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from shapely import ops
 from shapely.geometry import Polygon

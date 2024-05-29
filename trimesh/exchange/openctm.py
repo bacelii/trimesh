@@ -32,7 +32,7 @@ import os
 import ctypes
 import ctypes.util
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 _ctm_loaders = {}
 
 try:

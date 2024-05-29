@@ -6,7 +6,7 @@ The base class for Trimesh, PointCloud, and Scene objects
 """
 import abc
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import caching
 from . import transformations as tf

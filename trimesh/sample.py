@@ -5,7 +5,7 @@ sample.py
 Randomly sample surface and volume of meshes.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import util
 from . import transformations

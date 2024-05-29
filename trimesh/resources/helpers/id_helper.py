@@ -10,7 +10,7 @@ which is supposed to be pretty invariant to translation and tessellation
 changes. We use this to generate the arbitrary sigfig thresholds.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 import trimesh
 
 import time

@@ -7,7 +7,7 @@ it to a "truth" mesh.
 """
 
 import trimesh
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 def simulated_brick(face_count, extents, noise, max_iter=10):

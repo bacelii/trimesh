@@ -32,7 +32,7 @@ In [16]: %timeit ('{}/{}/{}\n' * len(array))[:-1].format(*array.flatten())
 - Sometimes you can use sparse matrices to replace a loop and get a huge speedup. [Here's the same algorithm implemented two ways, looping and sparse dot products.](https://github.com/mikedh/trimesh/blob/master/trimesh/geometry.py#L186-L203)
 - In tight loops, `array.sum(axis=1)` often pops up as the slowest thing. This can be replaced with a dot product of ones, which are very optimized can be substantially faster:
 ```
-In [1]: import numpy as np
+In [1]: from datasci_tools import numpy_dep as np
 
 In [2]: a = np.random.random((10000, 3))
 

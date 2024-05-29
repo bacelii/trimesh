@@ -8,7 +8,7 @@ edge list form, and abstract the backend graph library being used.
 Currently uses networkx or scipy.sparse.csgraph backend.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 import collections
 
 from . import util

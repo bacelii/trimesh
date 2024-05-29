@@ -6,7 +6,7 @@ Store visual materials as objects.
 """
 import abc
 import copy
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import color
 from .. import util

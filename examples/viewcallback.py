@@ -8,7 +8,7 @@ easy visualizations.
 
 import time
 import trimesh
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 def sinwave(scene):

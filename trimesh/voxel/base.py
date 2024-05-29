@@ -4,7 +4,7 @@ voxel.py
 
 Convert meshes to a simple voxel data structure and back again.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import ops
 from . import transforms

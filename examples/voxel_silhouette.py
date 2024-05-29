@@ -1,6 +1,6 @@
 import os
 import trimesh
-import numpy as np
+from datasci_tools import numpy_dep as np
 from PIL import Image
 
 

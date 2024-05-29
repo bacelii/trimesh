@@ -1,7 +1,7 @@
 """
 A basic slow implementation of ray- triangle queries.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 from .ray_util import contains_points

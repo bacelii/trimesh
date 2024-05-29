@@ -7,7 +7,7 @@ Subclasses of Trimesh objects that are parameterized as primitives.
 Useful because you can move boxes and spheres around, and then use
 trimesh operations on them at any point.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 import pprint
 import copy
 

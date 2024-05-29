@@ -4,7 +4,7 @@ raster.py
 
 Turn 2D vector paths into raster images using `pillow`
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 try:
     # keep pillow as a soft dependency

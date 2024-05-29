@@ -2,7 +2,7 @@
 Ray queries using the pyembree package with the
 API wrapped to match our native raytracer.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from copy import deepcopy
 

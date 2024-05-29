@@ -2,7 +2,7 @@ import json
 import base64
 import collections
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from copy import deepcopy
 

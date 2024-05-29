@@ -6,7 +6,7 @@ Exporting meshes as binvox files requires binvox CL tool to be on your path.
 """
 import os
 import subprocess
-import numpy as np
+from datasci_tools import numpy_dep as np
 import collections
 
 from distutils.spawn import find_executable

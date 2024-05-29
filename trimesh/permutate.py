@@ -5,7 +5,7 @@ permutate.py
 Randomly deform meshes in different ways.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import transformations
 from . import triangles as triangles_module

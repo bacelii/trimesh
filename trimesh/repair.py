@@ -5,7 +5,7 @@ repair.py
 Fill holes and fix winding and normals of meshes.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import graph
 from . import triangles

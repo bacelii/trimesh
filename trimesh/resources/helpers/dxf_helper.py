@@ -8,7 +8,7 @@ than strings inside a JSON blob
 
 import os
 import json
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 def get_json(file_name='../dxf.json.template'):

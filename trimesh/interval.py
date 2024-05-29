@@ -6,7 +6,7 @@ Deal with 1D intervals which are defined by:
   [start position, end position]
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 def check(a, b, digits):

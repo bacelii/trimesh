@@ -4,7 +4,7 @@ threedxml.py
 
 Load 3DXML files, a scene format from Solidworks.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 import json
 import collections

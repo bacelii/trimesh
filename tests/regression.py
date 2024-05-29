@@ -67,7 +67,7 @@ def establish_baseline(counts=[390, 3820, 1710]):
       Minimum times for each test
     """
 
-    setup = 'import numpy as np'
+    setup = 'from datasci_tools import numpy_dep as np'
 
     # test a dot product with itself
     dot = '\n'.join(('a = np.arange(3*10**3,dtype=np.float64).reshape((-1,3))',

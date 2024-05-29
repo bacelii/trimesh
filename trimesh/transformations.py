@@ -201,7 +201,7 @@ from __future__ import division, print_function
 
 import math
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 __version__ = '2017.02.17'
 __docformat__ = 'restructuredtext en'

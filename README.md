@@ -32,7 +32,7 @@ Here is an example of loading a mesh from file and colorizing its faces. Here is
 [ipython notebook version](https://trimsh.org/examples/quick_start.html) of this example. Also check out the [cross section example](https://trimsh.org/examples/section.html) or possibly the [integration of a function over a mesh example](https://github.com/mikedh/trimesh/blob/master/examples/integrate.ipynb).
 
 ```python
-import numpy as np
+from datasci_tools import numpy_dep as np
 import trimesh
 
 # attach to logger so trimesh messages will be printed to console

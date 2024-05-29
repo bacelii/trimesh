@@ -1,5 +1,5 @@
 """OO interfaces to encodings for ND arrays which caching."""
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 import abc
 from ..util import ABC

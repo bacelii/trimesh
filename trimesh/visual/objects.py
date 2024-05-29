@@ -5,7 +5,7 @@ objects.py
 Deal with objects which hold visual properties, like
 ColorVisuals and TextureVisuals.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from .material import from_color, pack
 from .texture import TextureVisuals

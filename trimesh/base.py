@@ -42,7 +42,7 @@ from .scene import Scene
 from .parent import Geometry3D
 
 import copy
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 class Trimesh(Geometry3D):

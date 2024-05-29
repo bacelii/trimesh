@@ -6,7 +6,7 @@ Functions dealing with (n, d) points.
 """
 import copy
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from .parent import Geometry3D
 from .geometry import plane_transform

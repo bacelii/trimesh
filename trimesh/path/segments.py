@@ -5,7 +5,7 @@ segments.py
 Deal with (n, 2, 3) line segments.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from .. import util
 from .. import grouping

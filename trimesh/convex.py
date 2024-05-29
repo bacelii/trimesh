@@ -9,7 +9,7 @@ Convex is defined as:
 3) (of a polygon) having only interior angles measuring less than 180
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from .constants import tol
 

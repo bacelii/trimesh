@@ -5,7 +5,7 @@ registration.py
 Functions for registering (aligning) point clouds with meshes.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import util
 from . import bounds

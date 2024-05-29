@@ -21,7 +21,7 @@ import zipfile
 import tempfile
 import collections
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 if sys.version_info >= (3, 4):
     # for newer version of python
@@ -595,7 +595,7 @@ def diagonal_dot(a, b):
 
     Comparing performance of some equivalent versions:
     ```
-    In [1]: import numpy as np; import trimesh
+    In [1]: from datasci_tools import numpy_dep as np; import trimesh
 
     In [2]: a = np.random.random((10000, 3))
 

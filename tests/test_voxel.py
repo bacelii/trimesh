@@ -5,7 +5,7 @@ except BaseException:
 from trimesh.voxel import ops
 from trimesh.voxel import creation
 from trimesh.primitives import Sphere
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 
 class VoxelGridTest(g.unittest.TestCase):

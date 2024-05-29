@@ -6,7 +6,7 @@ Show a mesh with edges highlighted using GL_LINES
 """
 
 import trimesh
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 if __name__ == '__main__':
     mesh = trimesh.load('../models/featuretype.STL')

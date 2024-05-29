@@ -1,4 +1,4 @@
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from ..constants import res_path as res
 from ..constants import tol_path as tol

@@ -6,7 +6,7 @@ import io
 import pathlib
 
 import glooey
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 import pyglet
 import trimesh

@@ -5,7 +5,7 @@ grouping.py
 Functions for grouping values and rows.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from . import util
 

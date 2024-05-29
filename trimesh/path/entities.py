@@ -5,7 +5,7 @@ entities.py
 Basic geometric primitives which only store references to
 vertex indices rather than vertices themselves.
 """
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 from copy import deepcopy
 from .arc import discretize_arc, arc_center

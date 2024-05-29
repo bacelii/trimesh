@@ -1,5 +1,5 @@
 import hashlib
-import numpy as np
+from datasci_tools import numpy_dep as np
 import collections
 
 from .. import util

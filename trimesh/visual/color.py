@@ -22,7 +22,7 @@ Goals
    and setting or altering a value should automatically change the mode.
 """
 
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 import copy
 import colorsys

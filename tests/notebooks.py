@@ -3,7 +3,7 @@ import sys
 import json
 import inspect
 import subprocess
-import numpy as np
+from datasci_tools import numpy_dep as np
 
 # current working directory
 cwd = os.path.dirname(os.path.abspath(

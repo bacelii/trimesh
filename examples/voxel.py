@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 import os
-import numpy as np
+from datasci_tools import numpy_dep as np
 import inspect
 import trimesh
 
